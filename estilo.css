@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --pri: #274156;
+    --prialpha: #274156b7;
+    --sec: #1C6E8C;
+    --ter: #605856;
+    --white: #FBFCFF;
+    --qui: #D0CCD0;
+}
+.input{
+    padding: 10px;
+    border: 1px solid var(--pri);
+    border-radius: 10px;
+    outline: none;
+}
+.input:focus{
+    background-color: rgb(251, 246, 140);
+}
+.select{
+    padding: 10px;
+    border: 1px solid var(--pri);
+    border-radius: 10px;
+    outline: none;
+}
+.select:focus{
+    background-color: rgb(251, 246, 140);
+}
+.label{
+    display: block;
+
+}
+.botao {
+    background-color: var(--pri);
+    color: var(--white);
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color:var(--prialpha);
+}
